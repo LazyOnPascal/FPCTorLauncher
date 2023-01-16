@@ -30,7 +30,7 @@ var
   vTimer: byte;
 begin
   tor := TTorLauncher.Create('', 'TorWorkDir',
-    9151, 9152, TtorBridges.Create(DEFAULT_BRIDGE_1, DEFAULT_BRIDGE_2, ''));
+    9151, 9152, TTorBridges.Create(DEFAULT_BRIDGE_1, DEFAULT_BRIDGE_2, ''));
   try
     tor.process.Execute;
     for vTimer := 0 to CONNECTION_TIMEOUT do
