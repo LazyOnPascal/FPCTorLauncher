@@ -1,4 +1,7 @@
 .directory
+test
+test.fpcunit.ini
+TorWorkDir/
 
 # Lazarus compiler-generated binaries (safe to delete)
 *.exe
