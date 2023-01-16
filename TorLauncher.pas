@@ -346,7 +346,7 @@ procedure TTorLauncher.CreateGEOIPFile;
 begin
   {$ifdef unix}
   CopyFile('/usr/share/tor/geoip', FWorkDir + '/geoip');
-  CopyFile('/usr/share/tor/geoip6', FWorkDir + '/geoip');
+  CopyFile('/usr/share/tor/geoip6', FWorkDir + '/geoip6');
   {$endif}
 end;
 
